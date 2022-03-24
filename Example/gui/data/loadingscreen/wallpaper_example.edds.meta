@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{DD64D4B12285A6C7}Example/gui/data/loadingscreen/wallpaper_example.edds"
+ Author "mauricio"
+ ChangeDate -824021918
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "wallpaper_example.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

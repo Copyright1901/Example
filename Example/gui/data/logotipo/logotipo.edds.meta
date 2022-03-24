@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{7660638BD6E28C5F}Example/gui/data/logotipo/logotipo.edds"
+ Author "desktop-291ln96"
+ ChangeDate 303754011
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "logotipo.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

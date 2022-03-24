@@ -1,0 +1,50 @@
+/**
+* OptionSelectorSlider.c 
+* 
+* TH
+* www.thebritto.com.br 
+* © 2019 - 2021 TH 
+* 
+* Last Modified: 24/11/2021 
+* Modified By: TH
+* 
+* This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
+* To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/. 
+* This work is property of TH. You do not have permissions to edit/distribute any of this content without written permission from the content author (TH). 
+* Failure to adhere to the content license(s) above will result in actions from Bohemia Interactive Studios and/or Valve.
+* 
+*/
+
+modded class OptionSelectorSlider extends OptionSelectorBase
+{
+	void OptionSelectorSlider(Widget parent, float value, ScriptedWidgetEventHandler parent_menu, bool disabled, float min, float max)
+	{
+		m_Slider.SetColor(UIColor);
+	};
+
+	override bool OnMouseEnter(Widget w, int x, int y)
+	{
+		if(m_ParentClass)
+		{
+			OnFocus(w, x, y);
+			m_ParentClass.OnFocus(m_Root.GetParent(), -1, m_SelectorType);
+			m_ParentClass.OnMouseEnter(m_Root.GetParent().GetParent(), x, y);
+			m_Slider.SetColor(UIColor);
+		};
+		
+		return true;
+	};
+
+	override bool OnMouseLeave(Widget w, Widget enterW, int x, int y)
+	{
+		if(m_ParentClass)
+		{
+			m_ParentClass.OnMouseLeave(m_Root.GetParent().GetParent(), enterW, x, y);
+			m_Slider.SetColor(UIColor);
+			OnFocusLost(w, x, y);
+			SetFocus(null);
+		};
+			
+		return true;
+	};
+};

@@ -1,0 +1,417 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ {
+  GridSpacerWidgetClass GridSpacerWidget {
+   ignorepointer 1
+   size 48 48
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   Padding 10
+   Margin 0
+   "Size To Content H" 1
+   "Size To Content V" 1
+   Columns 1
+   Rows 8
+   {
+    ButtonWidgetClass Server_01 {
+     position 0 0
+     size 600 150
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Empty
+     {
+      ImageWidgetClass Server01_image {
+       visible 1
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+       "src alpha" 1
+       "no wrap" 1
+       stretch 1
+      }
+      PanelWidgetClass Server01_Border {
+       visible 1
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Outline_1px
+      }
+      ImageWidgetClass Server01_Status {
+       ignorepointer 1
+       color 0.2824 1 0.4745 1
+       position 10 10
+       size 30 30
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       imageTexture "{E601CA3194E00E72}SKGamingLayout/gui/data/server_browser/dot.edds"
+       mode blend
+       "src alpha" 1
+       stretch 1
+      }
+      ImageWidgetClass Server01_logo {
+       ignorepointer 1
+       position 140 0
+       size 85 85
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       imageTexture "{B8A02FA2FD1A862B}SKGamingLayout/gui/data/logotipo/logotipo.edds"
+       mode blend
+       "src alpha" 1
+       stretch 1
+      }
+      GridSpacerWidgetClass Server01_Grid {
+       ignorepointer 1
+       position 10 10
+       size 48 75
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       Margin 0
+       "Size To Content H" 1
+       Columns 1
+       {
+        TextWidgetClass Server01_name {
+         ignorepointer 1
+         color 0 0 0 1
+         position 0 10
+         size 300 25
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "1SKGaming.com AU-1"
+         font "Example/gui/fonts/regular18"
+         "exact text" 0
+         "size to text h" 1
+         "size to text v" 0
+         "text valign" center
+        }
+        TextWidgetClass Server01_map {
+         ignorepointer 1
+         color 0 0 0 1
+         position 10 10
+         size 48 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Map: Chernarus"
+         font "Example/gui/fonts/regular18"
+         "size to text h" 1
+         "size to text v" 0
+        }
+        TextWidgetClass Server01_version {
+         ignorepointer 1
+         color 0 0 0 1
+         position 10 10
+         size 48 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Version: 1.15.154355"
+         font "Example/gui/fonts/regular16"
+         "size to text h" 1
+         "size to text v" 0
+        }
+       }
+      }
+     }
+    }
+    ButtonWidgetClass Server_02 {
+     position 0 0
+     size 600 150
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Empty
+     {
+      ImageWidgetClass Server02_image {
+       visible 1
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+       "src alpha" 1
+       "no wrap" 1
+       stretch 1
+      }
+      PanelWidgetClass Server02_Border {
+       visible 1
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Outline_1px
+      }
+      ImageWidgetClass Server02_Status {
+       ignorepointer 1
+       color 0.2824 1 0.4745 1
+       position 10 10
+       size 30 30
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       imageTexture "{E601CA3194E00E72}SKGamingLayout/gui/data/server_browser/dot.edds"
+       mode blend
+       "src alpha" 1
+       stretch 1
+      }
+      ImageWidgetClass Server02_logo {
+       ignorepointer 1
+       position 140 0
+       size 85 85
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       imageTexture "{B8A02FA2FD1A862B}SKGamingLayout/gui/data/logotipo/logotipo.edds"
+       mode blend
+       "src alpha" 1
+       stretch 1
+      }
+      GridSpacerWidgetClass Server02_Grid {
+       ignorepointer 1
+       position 10 10
+       size 48 75
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       Margin 0
+       "Size To Content H" 1
+       Columns 1
+       {
+        TextWidgetClass Server02_name {
+         ignorepointer 1
+         color 0 0 0 1
+         position 0 10
+         size 300 25
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "1SKGaming.com AU-2"
+         font "Example/gui/fonts/regular18"
+         "exact text" 0
+         "size to text h" 1
+         "size to text v" 0
+         "text valign" center
+        }
+        TextWidgetClass Server02_map {
+         ignorepointer 1
+         color 0 0 0 1
+         position 10 10
+         size 48 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Map: Chernarus"
+         font "Example/gui/fonts/regular18"
+         "size to text h" 1
+         "size to text v" 0
+        }
+        TextWidgetClass Server02_version {
+         ignorepointer 1
+         color 0 0 0 1
+         position 10 10
+         size 48 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Version: 1.15.154355"
+         font "Example/gui/fonts/regular16"
+         "size to text h" 1
+         "size to text v" 0
+        }
+       }
+      }
+     }
+    }
+    ButtonWidgetClass Server_03 {
+     position 0 0
+     size 600 150
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Empty
+     {
+      ImageWidgetClass Server03_image {
+       visible 1
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+       "src alpha" 1
+       "no wrap" 1
+       stretch 1
+      }
+      PanelWidgetClass Server03_Border {
+       visible 1
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Outline_1px
+      }
+      ImageWidgetClass Server03_Status {
+       ignorepointer 1
+       color 0.2824 1 0.4745 1
+       position 10 10
+       size 30 30
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       imageTexture "{E601CA3194E00E72}SKGamingLayout/gui/data/server_browser/dot.edds"
+       mode blend
+       "src alpha" 1
+       stretch 1
+      }
+      ImageWidgetClass Server03_logo {
+       ignorepointer 1
+       position 140 0
+       size 85 85
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       imageTexture "{B8A02FA2FD1A862B}SKGamingLayout/gui/data/logotipo/logotipo.edds"
+       mode blend
+       "src alpha" 1
+       stretch 1
+      }
+      GridSpacerWidgetClass Server03_Grid {
+       ignorepointer 1
+       position 10 10
+       size 48 75
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       Margin 0
+       "Size To Content H" 1
+       Columns 1
+       {
+        TextWidgetClass Server03_name {
+         ignorepointer 1
+         color 0 0 0 1
+         position 0 10
+         size 300 25
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "1SKGaming.com Livonia"
+         font "Example/gui/fonts/regular18"
+         "exact text" 0
+         "size to text h" 1
+         "size to text v" 0
+         "text valign" center
+        }
+        TextWidgetClass Server03_map {
+         ignorepointer 1
+         color 0 0 0 1
+         position 10 10
+         size 48 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Map: Livonia"
+         font "Example/gui/fonts/regular18"
+         "size to text h" 1
+         "size to text v" 0
+        }
+        TextWidgetClass Server03_version {
+         ignorepointer 1
+         color 0 0 0 1
+         position 10 10
+         size 48 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Version: 1.15.154355"
+         font "Example/gui/fonts/regular16"
+         "size to text h" 1
+         "size to text v" 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
